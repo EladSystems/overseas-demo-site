@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>מעביר לדמו של Overseas…</title>
+    <script>
+      const appBaseUrl = '/overseas-demo-site/'
+      const requestedPath = `${window.location.pathname}${window.location.search}${window.location.hash}`
+      window.location.replace(`${appBaseUrl}?__ghpages_path=${encodeURIComponent(requestedPath)}`)
+    </script>
+  </head>
+  <body>
+    <p>מעביר לדמו של Overseas…</p>
+  </body>
+</html>
